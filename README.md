@@ -55,6 +55,6 @@
 
 ## Contact
 
-- お問い合わせは[rihobeer.com](https://rihobeer.com)のフォームからお願いいたします  
+- お問い合わせは riho.dare at gmail.com までお願いいたします  
 - [X (旧Twitter)](https://x.com/rihobeer2)  
 - [Instagram](https://instagram.com/lobeerve)
