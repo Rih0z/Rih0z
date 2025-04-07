@@ -38,7 +38,6 @@
   - Googleアカウントとの連携機能も実装予定
 - **スクリーンショット**:  
   ![資産状況管理プログラム](https://github.com/Rih0z/portfolio-manager/blob/main/images/IMG_0007.jpeg?raw=true)
-
 ### 2. [SoundMixer](https://github.com/Rih0z/SoundMixer)
 - **概要**: 発達障害を持つ子どもや人のためのiPad向け音刺激提示アプリ
 - **背景と課題**:  
@@ -56,7 +55,6 @@
 - **スクリーンショット**:  
   ![メトロノーム画面](https://github.com/Rih0z/SoundMixer/blob/master/images/IMG_0019.jpeg)  
   ![音楽選択画面](https://github.com/Rih0z/SoundMixer/blob/master/images/IMG_0020.jpeg)
-
 ### 3. [beer-affiliate-engine](https://github.com/Rih0z/beer-affiliate-engine)
 - **概要**: ビールに関するアフィリエイトサイト構築エンジン  
 - **背景と課題**:  
@@ -98,6 +96,62 @@
   - iOS開発（Swift）
   - AI連携（GPT API / Azure OpenAI / Document Intelligence）  
   - クラウド（Azure / Netlify）  
+---
+## 研究実績
+
+### 1. Tenderにおける資源「入出力」のスループット向上手法
+**I/O Resource Throughput Improvement Method for Tender**
+
+- **公開日**: 2020年03月03日
+- **著者**: 利穂虹希, 山内利宏, 谷口秀夫 (岡山大学大学院自然科学研究科)
+- **掲載先**: 電子情報通信学会大会講演論文集(CD-ROM) 2020年総合大会
+- **URL**: [https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202002246297867548](https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202002246297867548)
+
+#### 概要
+Tenderオペレーティングシステム（The ENduring operating system for Distributed EnviRonment）における入出力性能の調整制御法に関する研究です。入出力性能調整機能において、性能調整入出力と優先度入出力を同時に実行した際のスループット向上手法を提案しています。Tenderは岡山大学の谷口秀夫教授が研究開発した分散環境向けOSで、OSが制御する対象を「資源」として管理する特徴があります。
+
+#### 謝辞
+本研究は、岡山大学大学院自然科学研究科の山内利宏教授と谷口秀夫教授のご指導のもとで行われました。両教授には研究の計画から実施、論文執筆に至るまで多大なるご支援をいただきましたことに深く感謝申し上げます。
+
+### 2. ファイルシステムによる通信手法の簡略化
+**Simplified Communication Method Using File Systems**
+
+- **公開日**: 2019年02月28日
+- **著者**: 利穂虹希, 佐野雅彦 (徳島大学)
+- **掲載先**: 情報処理学会
+- **URL**: [https://ipsj.ixsq.nii.ac.jp/records/196312](https://ipsj.ixsq.nii.ac.jp/records/196312)
+- **主題**: ソフトウェア科学・工学
+
+#### 概要
+スマートフォンやIoT等のインターネット利用機会の増大により、通信プログラミング経験の必要性が高まっていますが、従来のソケットなどの概念は初学者には理解が難しい課題があります。本研究では、クライアント・サーバ間通信をファイルシステムとして実装することで、ファイル操作による直感的な理解とファイルシステム以外には特別なライブラリを不要とした環境の実現を目指しました。
+
+#### 謝辞
+本研究を進めるにあたり、徳島大学の佐野雅彦先生には多大なるご指導とご支援をいただきました。また、研究環境を提供していただいた徳島大学に深く感謝いたします。
+
+### 3. Androidを対象とした利用者の意図しないWebサイトの分類
+**Unwanted Web Site Classification for Android**
+
+- **公開日**: 2019年10月14日
+- **著者**: 利穂虹希, 折戸凜太郎, 佐藤将也, 山内利宏 (岡山大学大学院自然科学研究科)
+- **掲載先**: 情報処理学会シンポジウム
+- **URL**: [https://ipsj.ixsq.nii.ac.jp/records/201435](https://ipsj.ixsq.nii.ac.jp/records/201435)
+- **主題**: Android, セキュリティアプリ, 悪性Webサイト, Webブラウザ, Web媒介型攻撃
+
+#### 概要
+Android端末利用者が意図せずアクセスしてしまう不正・悪性Webサイトに対する分類方法を提案した研究です。モバイル端末におけるWeb閲覧時の安全性向上を目的として、意図しないWebサイトへのリダイレクトや悪意のあるWebサイトの特徴を分析し、効果的な分類手法を開発しています。
+
+#### 謝辞
+本研究は岡山大学大学院自然科学研究科の山内利宏教授のご指導のもと、折戸凜太郎氏、佐藤将也氏との共同研究として実施されました。研究チームの皆様には多大なるご協力をいただきましたことに深く感謝申し上げます。
+
+---
+## 経歴
+
+- **2017年3月**: 阿南工業高等専門学校 制御情報工学科 卒業
+- **2019年3月**: 徳島大学 卒業
+- **2021年3月**: 岡山大学 卒業
+- **2021年4月**: NEC入社
+- **2024年11月〜**: アメリカ駐在
+
 ---
 ## Contact
 - お問い合わせは riho.dare at gmail.com までお願いいたします  
