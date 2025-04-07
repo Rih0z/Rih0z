@@ -54,8 +54,8 @@
   - 自然音の提示による落ち着き促進効果の検証
   - 個人差に対応したカスタマイズ機能の実装
 - **スクリーンショット**:  
-  ![メトロノーム画面](https://github.com/Rih0z/SoundMixer/images/IMG_0019.jpeg)  
-  ![音楽選択画面](https://github.com/Rih0z/SoundMixer/images/IMG_0020.jpeg)
+  ![メトロノーム画面](https://github.com/Rih0z/SoundMixer/blob/master/images/IMG_0019.jpeg)  
+  ![音楽選択画面](https://github.com/Rih0z/SoundMixer/blob/master/images/IMG_0020.jpeg)
 
 ### 3. [beer-affiliate-engine](https://github.com/Rih0z/beer-affiliate-engine)
 - **概要**: ビールに関するアフィリエイトサイト構築エンジン  
