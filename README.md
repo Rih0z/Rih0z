@@ -28,8 +28,6 @@
   - Web/AIアプリケーション開発（PoC〜実運用まで）  
   - WordPressサイト構築・SEO対策・運営サポート  
   - AI導入に向けた技術選定と実装の伴走支援
----
-## Featured Projects
 ### 1. [PintHop](https://github.com/Rih0z/PintHop)
 - **概要**: クラフトビール愛好家のためのブルワリー探索・レビュープラットフォーム
 - **背景と課題**:  
@@ -39,6 +37,19 @@
   - ユーザーレビュー・評価システム
   - パーソナライズされたビールおよびブルワリーのレコメンデーション
   - ソーシャル共有機能
+- **スクリーンショット**:  
+  <table>
+    <tr>
+      <td><img src="https://github.com/Rih0z/PintHop/blob/main/Document/Design/prototypes/Beer-review/IMG_0115.jpeg?raw=true" alt="フレーバープロファイル" width="250" /></td>
+      <td><img src="https://github.com/Rih0z/PintHop/blob/main/Document/Design/prototypes/Beer-review/IMG_0116.jpeg?raw=true" alt="ホップ構成" width="250" /></td>
+      <td><img src="https://github.com/Rih0z/PintHop/blob/main/Document/Design/prototypes/Beer-review/IMG_0117.jpeg?raw=true" alt="評価スコア" width="250" /></td>
+    </tr>
+    <tr>
+      <td>フレーバープロファイル</td>
+      <td>ホップ構成分析</td>
+      <td>評価スコア記録</td>
+    </tr>
+  </table>
 - **開発状況**:  
   開発中 - 共同開発者募集中！ご興味のある方はお気軽にご連絡ください
 
