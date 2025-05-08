@@ -46,7 +46,15 @@
   - 手数料・配当の分析機能を搭載  
   - 複数通貨（円/ドル）対応の資金配分シミュレーション
 - **スクリーンショット**:  
+  **ポートフォリオ管理画面**  
   ![資産状況管理プログラム](https://github.com/Rih0z/portfolio-manager/blob/main/images/IMG_0007.jpeg?raw=true)
+  
+  **AIプロンプト実行結果例**  
+  ![現在比率と理想比率の分析](https://github.com/Rih0z/portfolio-manager/blob/main/images/Invest-prompt/IMG_0206.jpeg?raw=true)  
+  *AIがユーザーのポートフォリオデータを分析し、現在の資産配分と理想配分の差異や改善点を提案*
+  
+  ![理想比率に近づけるための投資プラン](https://github.com/Rih0z/portfolio-manager/blob/main/images/Invest-prompt/IMG_0207.jpeg?raw=true)  
+  *理想的な資産配分に近づけるための、具体的な銘柄ごとの投資計画を提案*
 
 ### 2. [PintHop](https://github.com/Rih0z/PintHop)
 - **概要**: クラフトビール愛好家のためのブルワリー探索・レビュープラットフォーム
@@ -147,6 +155,13 @@ AIの実践的な活用と普及に向けて、以下の取り組みを行って
 
 ### 業務効率化プロンプト集
 日々の業務効率化に役立つAIプロンプト集「[Job-Automate](https://github.com/Rih0z/Job-Automate)」をGitHubで公開しています。文書作成、データ分析、コード生成、アイデア発想など、様々な業務シーンで活用できるプロンプトテンプレートを無料で提供。実務経験に基づいた実践的なプロンプトで、AIツールの効果的な活用をサポートします。
+
+#### AIプロンプト実行結果の例
+![現在比率と理想比率の分析](https://github.com/Rih0z/portfolio-manager/blob/main/images/Invest-prompt/IMG_0206.jpeg?raw=true)
+*AIがユーザーのポートフォリオデータを分析し、資産配分の最適化を提案*
+
+![理想比率に近づけるための投資プラン](https://github.com/Rih0z/portfolio-manager/blob/main/images/Invest-prompt/IMG_0207.jpeg?raw=true)
+*具体的な投資アクションプランをAIが自動生成*
 
 ---
 ## 資格・スキルセット
