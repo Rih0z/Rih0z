@@ -48,7 +48,10 @@
 - **スクリーンショット**:  
   **ポートフォリオ管理画面**  
   ![資産状況管理プログラム](https://github.com/Rih0z/portfolio-manager/blob/main/images/IMG_0007.jpeg?raw=true)
+
   
+　**試してみませんか？** [こちらのサンプルプロンプト](./sample-prompt.md)をClaudeやGemini ChatGPTなどのAIに貼り付けるだけで、このアプリが目指している投資分析がどのようなものか確認できます。実際に使用する際は、プロンプト内の「現在の総資産額」と「毎月の新規投資予定額」の数値を自分の状況に合わせて変更するだけで、あなた専用の投資分析が即座に得られます。
+
   **AIプロンプト実行結果例**  
   ![現在比率と理想比率の分析](https://github.com/Rih0z/portfolio-manager/blob/main/images/Invest-prompt/IMG_0206.jpeg?raw=true)  
   *AIがユーザーのポートフォリオデータを分析し、現在の資産配分と理想配分の差異や改善点を提案*
@@ -155,13 +158,6 @@ AIの実践的な活用と普及に向けて、以下の取り組みを行って
 
 ### 業務効率化プロンプト集
 日々の業務効率化に役立つAIプロンプト集「[Job-Automate](https://github.com/Rih0z/Job-Automate)」をGitHubで公開しています。文書作成、データ分析、コード生成、アイデア発想など、様々な業務シーンで活用できるプロンプトテンプレートを無料で提供。実務経験に基づいた実践的なプロンプトで、AIツールの効果的な活用をサポートします。
-
-#### AIプロンプト実行結果の例
-![現在比率と理想比率の分析](https://github.com/Rih0z/portfolio-manager/blob/main/images/Invest-prompt/IMG_0206.jpeg?raw=true)
-*AIがユーザーのポートフォリオデータを分析し、資産配分の最適化を提案*
-
-![理想比率に近づけるための投資プラン](https://github.com/Rih0z/portfolio-manager/blob/main/images/Invest-prompt/IMG_0207.jpeg?raw=true)
-*具体的な投資アクションプランをAIが自動生成*
 
 ---
 ## 資格・スキルセット
