@@ -14,7 +14,7 @@
 - **Location**: 日本出身、現在はアメリカ・シアトル在住  
 - **Company**: NEC  
   - Windows Server保守  
-  - Active Directory診断  
+  - Active Directory関連  
   - ダンプファイル解析  
   - 最新技術のトレンド調査  
   - Azureリソースを活用したAIソリューションのPoC・実装支援  
