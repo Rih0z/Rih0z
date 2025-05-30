@@ -73,7 +73,6 @@
 ### 2. [NextPint](https://github.com/Rih0z/NextPint) - AI Beer Discovery Prompt Provider
 - **概要**: ビール愛好家向けのAIプロンプトプロバイダーアプリ  
 - **ライブデモ**: https://nextpint-web.pages.dev
-- **API**: https://nextpint-api.riho-dare.workers.dev
 - **背景と課題**:  
   ビール愛好家が自分の好みや状況に合った最適なビールを発見したいが、適切なAIプロンプトを作成するのが困難だった。そこで、ユーザーの好みや状況を理解し、ChatGPT、Claude、Geminiなどの汎用AIサービスで使用できる最適なプロンプトを提供するシステムを開発。
 - **特徴**:
@@ -101,7 +100,6 @@
 ### 4. [PintHop](https://github.com/Rih0z/PintHop) - 偶然の出会いとビールコミュニティ
 - **概要**: ビアホッピング体験を通じた偶然の出会いとコミュニティ形成に特化したオープンソースアプリ
 - **ライブデモ**: https://67515bf9.pinthop.pages.dev
-- **API**: https://pinthop-api.riho-dare.workers.dev
 - **背景と課題**:  
   ビアホッピング愛好家が友達との自然な合流や新しい仲間との出会いを求めているが、従来のSNSでは「誘う/誘われる」という心理的プレッシャーがあった。そこで、偶然の出会いを創出し、ビアホッピング体験を共有できるプラットフォームを開発。
 - **コンセプト**:
