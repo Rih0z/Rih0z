@@ -6,7 +6,7 @@
 - **Azureを活用したAIソリューション開発**や**技術トレンド調査**にも取り組み中  
 - アメリカ・シアトルからリモートで活動中
 
-**👥 現在、[PintHop](https://github.com/Rih0z/PintHop)プロジェクトの共同開発者を募集中です！試してみませんか？詳細はリポジトリをご確認ください。**
+**👥 現在、複数のプロジェクトで共同開発者を募集中です！詳細は各プロジェクトリポジトリをご確認ください。**
 
 ---
 ## About Me
@@ -25,9 +25,9 @@
   - AI活用による業務自動化やWordPress制作などの技術面でサポート
 - **Tech Stack**:  
   - **インフラ系**: Windowsサーバー, Active Directory  
-  - **Web開発**: Node.js, Python, WordPress, Swift  
+  - **Web開発**: Node.js, Python, WordPress, Swift, React, Next.js, TypeScript  
   - **AI技術**: テキスト生成 / 画像生成 / GPT API連携  
-  - **クラウド**: Netlify（Webデプロイ）、Azure OpenAI, Azure AI Document Intelligence など  
+  - **クラウド**: Netlify, Cloudflare Pages/Workers, Azure OpenAI, Azure AI Document Intelligence, AWS  
 - **What I Offer**:  
   - サーバー保守と障害対応に関する支援  
   - Web/AIアプリケーション開発（PoC〜実運用まで）  
@@ -35,8 +35,12 @@
   - AI導入に向けた技術選定と実装の伴走支援
   - ITコンサルティング・技術アドバイス（Ezark Consulting技術顧問として）
 
-### 1. [portfolio-manager](https://github.com/Rih0z/portfolio-manager)
+---
+## My Projects
+
+### 1. [PortfolioWise](https://github.com/Rih0z/portfolio-manager) - スマート投資ポートフォリオ管理
 - **概要**: 投資ポートフォリオ管理と革新的なAIプロンプト自動生成機能を備えたWebアプリケーション  
+- **URL**: https://portfolio-wise.com
 - **背景と課題**:  
   従来の投資管理では毎月の投資配分計算が手作業で非効率だった上に、**AIの分析能力を活用しようとしても効果的なプロンプト設計が複雑で専門知識が必要**という二重の課題があった。そこで株価情報の自動取得と最適配分計算に加え、**ポートフォリオデータを自動的にAI分析用プロンプトに変換する革新的な機能**を実装。
 - **革新的なAIプロンプト自動生成**:
@@ -45,18 +49,19 @@
   - 生成したプロンプトは**Claude、ChatGPT、Geminiなど好きなAIで利用可能**（特定AIに依存しない）
   - **AIプロンプト設計の専門知識不要**で、誰でも高度な投資分析を受けられる革新的なシステム
   - **ボタン1つ**でクリップボードにコピーされるため、3クリックで専門家レベルの投資分析が可能
-  - **プライバシーとセキュリティを最重視**: アプリはユーザーの資産データを一切保存・管理せず、AIによる分析もユーザー自身の環境で実行されるため、センシティブな金融情報を守りながら安全に分析できます（アプリ自体にAI分析機能を組み込まない主な理由です）
+  - **プライバシーとセキュリティを最重視**: アプリはユーザーの資産データを一切保存・管理せず、AIによる分析もユーザー自身の環境で実行されるため、センシティブな金融情報を守りながら安全に分析できます
+- **技術スタック**: React + TypeScript, AWS (API Gateway, Lambda, DynamoDB), Cloudflare Pages
 - **ポイント**:  
-  - Netlifyでホストされるブラウザ動作型アプリ（モバイル対応）  
+  - Cloudflare Pagesでホストされるブラウザ動作型アプリ（モバイル対応）  
   - 複数のデータソースから株価を取得し、資産配分の視覚化やリバランス計算をサポート  
   - 手数料・配当の分析機能を搭載  
   - 複数通貨（円/ドル）対応の資金配分シミュレーション
+  - 日本市場対応強化のため2025年6月1日にアップデート予定
 - **スクリーンショット**:  
   **ポートフォリオ管理画面**  
   ![資産状況管理プログラム](https://github.com/Rih0z/portfolio-manager/blob/main/frontend/webapp/images/IMG_0007.jpeg?raw=true)
 
-  
-　**試してみませんか？** [こちらのサンプルプロンプト](https://github.com/Rih0z/portfolio-manager/blob/main/document/frontend/sample-prompt.md)をClaudeやGemini ChatGPTなどのAIに貼り付けるだけで、このアプリが目指している投資分析がどのようなものか確認できます。実際に使用する際は、プロンプト内の「現在の総資産額」と「毎月の新規投資予定額」の数値を自分の状況に合わせて変更するだけで、あなた専用の投資分析が即座に得られます。
+  **試してみませんか？** [こちらのサンプルプロンプト](https://github.com/Rih0z/portfolio-manager/blob/main/document/frontend/sample-prompt.md)をClaudeやGemini ChatGPTなどのAIに貼り付けるだけで、このアプリが目指している投資分析がどのようなものか確認できます。実際に使用する際は、プロンプト内の「現在の総資産額」と「毎月の新規投資予定額」の数値を自分の状況に合わせて変更するだけで、あなた専用の投資分析が即座に得られます。
 
   **AIプロンプト実行結果例**  
   ![現在比率と理想比率の分析](https://github.com/Rih0z/portfolio-manager/blob/main/frontend/webapp/images/Invest-prompt/IMG_0206.jpeg?raw=true)  
@@ -65,32 +70,50 @@
   ![理想比率に近づけるための投資プラン](https://github.com/Rih0z/portfolio-manager/blob/main/frontend/webapp/images/Invest-prompt/IMG_0207.jpeg?raw=true)  
   *理想的な資産配分に近づけるための、具体的な銘柄ごとの投資計画を提案*
 
-### 2. [PintHop](https://github.com/Rih0z/PintHop)
-- **概要**: クラフトビール愛好家のためのブルワリー探索・レビュープラットフォーム
+### 2. [NextPint](https://github.com/Rih0z/NextPint) - AI Beer Discovery Prompt Provider
+- **概要**: ビール愛好家向けのAIプロンプトプロバイダーアプリ  
+- **ライブデモ**: https://nextpint-web.pages.dev
+- **API**: https://nextpint-api.riho-dare.workers.dev
 - **背景と課題**:  
-  クラフトビールの新しい発見や体験共有を簡単にできるプラットフォームが必要とされていたため開発。旅行者がローカルブルワリーを見つけやすく、ビール愛好家がお気に入りを記録・共有できる環境を提供。
-- **ポイント**:  
-  - 位置情報ベースのブルワリー検索機能
-  - ユーザーレビュー・評価システム
-  - パーソナライズされたビールおよびブルワリーのレコメンデーション
-  - ソーシャル共有機能
-- **スクリーンショット**:  
-  <table>
-    <tr>
-      <td><img src="https://github.com/Rih0z/PintHop/blob/main/Document/Design/prototypes/Beer-review/IMG_0115.jpeg?raw=true" alt="フレーバープロファイル" width="250" /></td>
-      <td><img src="https://github.com/Rih0z/PintHop/blob/main/Document/Design/prototypes/Beer-review/IMG_0116.jpeg?raw=true" alt="ホップ構成" width="250" /></td>
-      <td><img src="https://github.com/Rih0z/PintHop/blob/main/Document/Design/prototypes/Beer-review/IMG_0117.jpeg?raw=true" alt="評価スコア" width="250" /></td>
-    </tr>
-    <tr>
-      <td>フレーバープロファイル</td>
-      <td>ホップ構成分析</td>
-      <td>評価スコア記録</td>
-    </tr>
-  </table>
-- **開発状況**:  
-  開発中 - 共同開発者募集中！ご興味のある方はお気軽にご連絡ください
+  ビール愛好家が自分の好みや状況に合った最適なビールを発見したいが、適切なAIプロンプトを作成するのが困難だった。そこで、ユーザーの好みや状況を理解し、ChatGPT、Claude、Geminiなどの汎用AIサービスで使用できる最適なプロンプトを提供するシステムを開発。
+- **特徴**:
+  - **プライバシーファースト**: すべてのデータをローカル保存
+  - **AI中立**: 特定のAIサービスに依存しない設計  
+  - **パーソナライゼーション**: ユーザーの好みを学習・反映
+  - **クロスプラットフォーム**: React NativeによるiOS/Android対応
+  - **モダンデザイン**: Netflix/Uber風ダークテーマ
+- **技術スタック**: React Native, Next.js 15, TypeScript, Cloudflare Workers + D1 Database, Tailwind CSS v4
+- **開発状況**: 積極的に開発中
 
-### 3. [Job-Automate](https://github.com/Rih0z/Job-Automate)
+### 3. [Miru](https://github.com/Rih0z/Miru) - AI恋愛オーケストレーションシステム
+- **概要**: 「付き合えるかもしれない」希望を可視化する、革新的な恋愛サポートアプリ
+- **ライブデモ**: https://miru-28f.pages.dev
+- **背景と課題**:  
+  恋愛において「脈あり度」や「関係の進展」を客観的に把握することが困難で、適切なアクションを取るタイミングがわからないという課題があった。そこで、AI分析と組み合わせたデータドリブンな恋愛サポートシステムを開発。
+- **特徴**:
+  - **AI連携による恋愛アドバイス**: ChatGPT/Claude/Geminiとの連携
+  - **関係の進展を可視化**: データに基づく関係性スコア算出
+  - **次のアクション提案**: 緊急度別のアクション提案システム
+  - **プライバシーファースト**: センシティブなデータの保護
+- **技術スタック**: Next.js 14, TypeScript, Tailwind CSS, Cloudflare Workers, Supabase
+- **開発状況**: MVP実装完了、機能拡張中
+
+### 4. [PintHop](https://github.com/Rih0z/PintHop) - 偶然の出会いとビールコミュニティ
+- **概要**: ビアホッピング体験を通じた偶然の出会いとコミュニティ形成に特化したオープンソースアプリ
+- **ライブデモ**: https://67515bf9.pinthop.pages.dev
+- **API**: https://pinthop-api.riho-dare.workers.dev
+- **背景と課題**:  
+  ビアホッピング愛好家が友達との自然な合流や新しい仲間との出会いを求めているが、従来のSNSでは「誘う/誘われる」という心理的プレッシャーがあった。そこで、偶然の出会いを創出し、ビアホッピング体験を共有できるプラットフォームを開発。
+- **コンセプト**:
+  - **偶然の出会いを創出**: 心理的障壁ゼロの自然な合流システム
+  - **ビアホッピング体験の共有**: リアルタイムでの軌跡共有とコミュニティ形成
+  - **ワンタップチェックイン**: 詳細入力不要のシンプルなプレゼンス共有
+  - **リアルタイムマップ**: 現在アクティブなスポットと友達の可視化
+- **技術スタック**: React 18.2.0 + TypeScript, Cloudflare Workers + Hono, MongoDB Atlas, Leaflet.js
+- **開発状況**: 基本機能実装済み、コミュニティ機能拡張中
+- **共同開発者募集中**: フロントエンド開発、UX設計、ビール愛好家によるテスト参加者を募集
+
+### 5. [Job-Automate](https://github.com/Rih0z/Job-Automate) - 日常業務効率化AIプロンプト集
 - **概要**: 日常業務を効率化するためのAIプロンプトテンプレート集
 - **背景と課題**:  
   AIの実践的な活用方法がわからないビジネスパーソンのために、すぐに業務で使える実用的なプロンプト例を提供。単なるプロンプト集ではなく、使い方の解説や実際の出力例も含めた総合的なリソース。
@@ -102,7 +125,7 @@
 - **コンセプト**:  
   「AIと共に、もっと効率的に、もっとクリエイティブに」をモットーに、様々な業務シーンでAIを効果的に活用する方法を提供。実務経験に基づく実践的なプロンプトで、AIツールの本格活用をサポート。
 
-### 4. [SoundMixer](https://github.com/Rih0z/SoundMixer)
+### 6. [SoundMixer](https://github.com/Rih0z/SoundMixer) - 発達障害支援音刺激アプリ
 - **概要**: 発達障害を持つ子どもや人のためのiPad向け音刺激提示アプリ
 - **背景と課題**:  
   2017年にNPO法人 EdTech Tokushima youthの代表として、活動していた際に作成。2名のチームメンバーを率いて、リーダーとして開発を推進。発達障害を持つ子どもや人がパニックや興奮状態にあるときに、適切な音刺激で落ち着きを促す支援ツールが必要とされていた。
@@ -120,7 +143,7 @@
   ![メトロノーム画面](https://github.com/Rih0z/SoundMixer/blob/master/images/IMG_0019.jpeg?raw=true)  
   ![音楽選択画面](https://github.com/Rih0z/SoundMixer/blob/master/images/IMG_0020.jpeg?raw=true)
 
-### 5. [beer-affiliate-engine](https://github.com/Rih0z/beer-affiliate-engine)
+### 7. [beer-affiliate-engine](https://github.com/Rih0z/beer-affiliate-engine) - ビールアフィリエイトサイト構築エンジン
 - **概要**: ビールに関するアフィリエイトサイト構築エンジン  
 - **背景と課題**:  
   ブログの中で最も収益性が高かったのは旅行ジャンルだったため、**記事内容から自動的にアフィリエイトリンクを生成**することで、**収益性を最大化**する仕組みを開発。
@@ -130,6 +153,7 @@
 - **スクリーンショット**:  
   ![ブログのスクリーンショット](https://github.com/Rih0z/beer-affiliate-engine/blob/main/Images/IMG_0010.png?raw=true)  
   ![ブログ内容を読み込み自動広告挿入](https://github.com/Rih0z/beer-affiliate-engine/blob/main/Images/IMG_0011.png?raw=true)
+
 ---
 ## My Website
 - **[rihobeer.com](https://rihobeer.com)**  
@@ -142,15 +166,17 @@
     - SEO対策（検索流入分析・キーワード最適化）  
     - サムネイル画像の自動生成  
   - 運営の原動力は「**ビール業界に貢献したい**」という想い
+
 ---
 ## Future Vision
 今後、以下のような領域にチャレンジしていきたいと考えています：
 - **生成AI × ノーコード**を組み合わせた開発支援エージェントの構築  
-- 自作アプリのユーザー拡大と**収益化モデルの確立**（portfolio-managerの一般公開など）  
+- 自作アプリのユーザー拡大と**収益化モデルの確立**（PortfolioWiseの一般公開拡大など）  
 - **クラフトビール × AI**での新規コンテンツ生成や**自動広告挿入アルゴリズムの高度化**  
 - **グローバルチームと連携したAI活用プロジェクト**への参画（英語でのコミュニケーションも可能）
 
-**👨‍💻 共同開発者・協力者募集：** PintHopプロジェクトをはじめ、クラフトビール業界やAI活用に興味のある方、一緒に価値を創造していきましょう！
+**👨‍💻 共同開発者・協力者募集：** 複数プロジェクトで共同開発者を募集中です。クラフトビール業界、AI活用、フィンテック、恋愛・ライフスタイルサポートに興味のある方、一緒に価値を創造していきましょう！
+
 ---
 ## Ezark Consulting - 技術顧問として参画
 
@@ -209,10 +235,11 @@ AIの実践的な活用と普及に向けて、以下の取り組みを行って
 - **英語力**: TOEIC 800点以上、アメリカ在住中の実務経験あり  
 - **技術領域**:  
   - サーバー保守（Windows Server / AD）  
-  - Web開発（Node.js / Python / WordPress）  
+  - Web開発（Node.js / Python / WordPress / React / Next.js / TypeScript）  
   - iOS開発（Swift）
   - AI連携（GPT API / Azure OpenAI / Document Intelligence）  
-  - クラウド（Azure / Netlify）  
+  - クラウド（Azure / AWS / Cloudflare / Netlify）  
+
 ---
 ## 研究実績
 
