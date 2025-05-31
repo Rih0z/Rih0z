@@ -50,6 +50,7 @@
   - **AIプロンプト設計の専門知識不要**で、誰でも高度な投資分析を受けられる革新的なシステム
   - **ボタン1つ**でクリップボードにコピーされるため、3クリックで専門家レベルの投資分析が可能
   - **プライバシーとセキュリティを最重視**: アプリはユーザーの資産データを一切保存・管理せず、AIによる分析もユーザー自身の環境で実行されるため、センシティブな金融情報を守りながら安全に分析できます
+  - **将来の展望**: 現在はAI API利用料の資金制約により、ユーザー自身のAIサービスを使用する設計ですが、将来的にユーザー数が増加し収益基盤が確立した際には、アプリ内にAI分析機能を統合し、よりシームレスな投資分析体験を提供予定です
 - **技術スタック**: React + TypeScript, AWS (API Gateway, Lambda, DynamoDB), Cloudflare Pages
 - **ポイント**:  
   - Cloudflare Pagesでホストされるブラウザ動作型アプリ（モバイル対応）  
@@ -70,9 +71,27 @@
   ![理想比率に近づけるための投資プラン](https://github.com/Rih0z/portfolio-manager/blob/main/frontend/webapp/images/Invest-prompt/IMG_0207.jpeg?raw=true)  
   *理想的な資産配分に近づけるための、具体的な銘柄ごとの投資計画を提案*
 
-### 2. [NextPint](https://github.com/Rih0z/NextPint) - AI Beer Discovery Prompt Provider
+### 2. [FitLoop](https://github.com/Rih0z/FitLoop) - プロンプトがプロンプトを生み出すAI筋トレアプリ
+- **概要**: 「プロンプトがプロンプトを生み出す」革新的なAI筋トレサポートシステム
+- **ライブデモ**: https://c33c05e5.fitloop-app.pages.dev
+- **背景と課題**:  
+  従来のフィットネスアプリは固定的なプログラムで個人の進歩に合わせた最適化が困難だった。そこで、ユーザーの筋トレデータを継続的に学習し、自動進化するパーソナルトレーナーシステムを開発。Claude AIとの連携により、メタプロンプト技術を活用した自己進化型トレーニングシステムを実現。
+- **革新的なメタプロンプト技術**:
+  - **自己進化システム**: トレーニング記録を入力すると、プロンプト自体が自動更新される
+  - **Claude AI連携**: 高度な分析能力でパーソナライズされたトレーニングプランを生成
+  - **筋肉バランス分析**: 使用重量から筋力バランスを推測し、理想的な体型に導く
+  - **コピー&ペースト設計**: アプリからプロンプトをコピーしてClaudeで実行、結果を貼り付けるだけ
+  - **完全ローカル**: AsyncStorageによるプライバシー重視の設計
+- **技術スタック**: React Native, AsyncStorage, NativeBase, Clipboard API
+- **ポイント**:  
+  - ユーザーのトレーニングデータがAIを育てる革新的システム
+  - 使うほど賢くなるパーソナルトレーナー
+  - バックエンドなしの超低コスト運用
+  - 「FitLoop - 進化し続けるフィットネス」をコンセプトに開発
+### 3. [NextPint](https://github.com/Rih0z/NextPint) - AI Beer Discovery Prompt Provider
 - **概要**: ビール愛好家向けのAIプロンプトプロバイダーアプリ  
 - **ライブデモ**: https://nextpint-web.pages.dev
+- **API**: https://nextpint-api.riho-dare.workers.dev
 - **背景と課題**:  
   ビール愛好家が自分の好みや状況に合った最適なビールを発見したいが、適切なAIプロンプトを作成するのが困難だった。そこで、ユーザーの好みや状況を理解し、ChatGPT、Claude、Geminiなどの汎用AIサービスで使用できる最適なプロンプトを提供するシステムを開発。
 - **特徴**:
@@ -84,7 +103,7 @@
 - **技術スタック**: React Native, Next.js 15, TypeScript, Cloudflare Workers + D1 Database, Tailwind CSS v4
 - **開発状況**: 積極的に開発中
 
-### 3. [Miru](https://github.com/Rih0z/Miru) - AI恋愛オーケストレーションシステム
+### 4. [Miru](https://github.com/Rih0z/Miru) - AI恋愛オーケストレーションシステム
 - **概要**: 「付き合えるかもしれない」希望を可視化する、革新的な恋愛サポートアプリ
 - **ライブデモ**: https://miru-28f.pages.dev
 - **背景と課題**:  
@@ -97,9 +116,10 @@
 - **技術スタック**: Next.js 14, TypeScript, Tailwind CSS, Cloudflare Workers, Supabase
 - **開発状況**: MVP実装完了、機能拡張中
 
-### 4. [PintHop](https://github.com/Rih0z/PintHop) - 偶然の出会いとビールコミュニティ
+### 5. [PintHop](https://github.com/Rih0z/PintHop) - 偶然の出会いとビールコミュニティ
 - **概要**: ビアホッピング体験を通じた偶然の出会いとコミュニティ形成に特化したオープンソースアプリ
 - **ライブデモ**: https://67515bf9.pinthop.pages.dev
+- **API**: https://pinthop-api.riho-dare.workers.dev
 - **背景と課題**:  
   ビアホッピング愛好家が友達との自然な合流や新しい仲間との出会いを求めているが、従来のSNSでは「誘う/誘われる」という心理的プレッシャーがあった。そこで、偶然の出会いを創出し、ビアホッピング体験を共有できるプラットフォームを開発。
 - **コンセプト**:
@@ -111,7 +131,7 @@
 - **開発状況**: 基本機能実装済み、コミュニティ機能拡張中
 - **共同開発者募集中**: フロントエンド開発、UX設計、ビール愛好家によるテスト参加者を募集
 
-### 5. [Job-Automate](https://github.com/Rih0z/Job-Automate) - 日常業務効率化AIプロンプト集
+### 6. [Job-Automate](https://github.com/Rih0z/Job-Automate) - 日常業務効率化AIプロンプト集
 - **概要**: 日常業務を効率化するためのAIプロンプトテンプレート集
 - **背景と課題**:  
   AIの実践的な活用方法がわからないビジネスパーソンのために、すぐに業務で使える実用的なプロンプト例を提供。単なるプロンプト集ではなく、使い方の解説や実際の出力例も含めた総合的なリソース。
@@ -123,7 +143,7 @@
 - **コンセプト**:  
   「AIと共に、もっと効率的に、もっとクリエイティブに」をモットーに、様々な業務シーンでAIを効果的に活用する方法を提供。実務経験に基づく実践的なプロンプトで、AIツールの本格活用をサポート。
 
-### 6. [SoundMixer](https://github.com/Rih0z/SoundMixer) - 発達障害支援音刺激アプリ
+### 7. [SoundMixer](https://github.com/Rih0z/SoundMixer) - 発達障害支援音刺激アプリ
 - **概要**: 発達障害を持つ子どもや人のためのiPad向け音刺激提示アプリ
 - **背景と課題**:  
   2017年にNPO法人 EdTech Tokushima youthの代表として、活動していた際に作成。2名のチームメンバーを率いて、リーダーとして開発を推進。発達障害を持つ子どもや人がパニックや興奮状態にあるときに、適切な音刺激で落ち着きを促す支援ツールが必要とされていた。
@@ -141,7 +161,7 @@
   ![メトロノーム画面](https://github.com/Rih0z/SoundMixer/blob/master/images/IMG_0019.jpeg?raw=true)  
   ![音楽選択画面](https://github.com/Rih0z/SoundMixer/blob/master/images/IMG_0020.jpeg?raw=true)
 
-### 7. [beer-affiliate-engine](https://github.com/Rih0z/beer-affiliate-engine) - ビールアフィリエイトサイト構築エンジン
+### 8. [beer-affiliate-engine](https://github.com/Rih0z/beer-affiliate-engine) - ビールアフィリエイトサイト構築エンジン
 - **概要**: ビールに関するアフィリエイトサイト構築エンジン  
 - **背景と課題**:  
   ブログの中で最も収益性が高かったのは旅行ジャンルだったため、**記事内容から自動的にアフィリエイトリンクを生成**することで、**収益性を最大化**する仕組みを開発。
