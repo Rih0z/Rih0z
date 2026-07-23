@@ -11,9 +11,18 @@
 クラフトビールの楽しさを広めるためのサイト。
 ビール好きが集まれる場所を目指して運営しています。
 
-- **受賞ビールデータベース** — https://rihobeer.com/tools/awards/
+- **ブルワリーマップ** — https://rihobeer.com/breweries/map/
+  訪れたい・訪れたブルワリーを地図上で探せるページです。
+
+- **ブルワリーデータベース** — https://rihobeer.com/tools/brewery-db/
+  国内外のブルワリー情報を検索・閲覧できるデータベース。
+
+- **受賞ビールデータベース** — https://rihobeer.com/tools/awards/ （[English](https://rihobeer.com/tools/awards-en/)）
   国内外のビールアワード受賞作品を検索・閲覧できるデータベース。
   「次に飲む一杯」を選ぶときの参考になればと思って作りました。
+
+- **YouTubeチャンネル** — [日本語](https://www.youtube.com/@rihobeer) / [English](https://www.youtube.com/@rihobeer-en)
+  クラフトビールやブルワリー巡りの様子を動画で発信しています。
 
 ### Portfolio Wise — https://portfolio-wise.com/
 ポートフォリオ管理を、もっとシンプルに、もっと自分らしく。
